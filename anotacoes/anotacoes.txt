@@ -45,6 +45,9 @@ Segunda-Feira
         git push -u origin main
 
     O react coloca o resultado do processamento dele dentro da div id="root". 
-            
+    Boostrap é um framework de css que traz muita coisa pronta para o layout ser montado de 
+     uma maneira mais fácil mais produtiva. (bootstrap css - para mais informações)
+
+    
 Quarta-Feira
 busca paginada o que seria? Perfis de teste com banco h2. 
