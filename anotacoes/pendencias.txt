@@ -1,4 +1,5 @@
 Pendências 
     Trabalhar com Docker depois. 
     Colocar essa pasta no git ignore
+    Qual a diferença de SSH para HTTPS no Github
     

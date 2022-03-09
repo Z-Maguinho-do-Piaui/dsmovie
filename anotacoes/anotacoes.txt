@@ -39,8 +39,12 @@ Segunda-Feira
         git remote add origin git@github.com:seuusuario/seurepositorio.git -- Antes de usar esse comando ele criou o projeto no
          github para associar com o repositório local. 
 
+        git remote add origin git@github.com:Z-Maguinho-do-Piaui/dsmovie.git (Quando trocou para SSH, gerou esse link)
+        git remote add origin https://github.com/Z-Maguinho-do-Piaui/dsmovie.git
+
         git push -u origin main
 
-
+    O react coloca o resultado do processamento dele dentro da div id="root". 
+            
 Quarta-Feira
 busca paginada o que seria? Perfis de teste com banco h2. 
