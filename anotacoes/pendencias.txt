@@ -1,0 +1,4 @@
+Pendências 
+    Trabalhar com Docker depois. 
+    Colocar essa pasta no git ignore
+    

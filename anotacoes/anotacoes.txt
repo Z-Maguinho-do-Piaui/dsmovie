@@ -1,0 +1,46 @@
+Segunda-Feira
+    Ele usa o figma para fazer o layout da aplicação de mais ou menos como deve ser. 
+    Para hoje será feito... 
+        A criação do projeto front end e back end 
+        Salvar os projetos no github em monorepo (o que seria isso)
+        Montar o visual estático do front end
+
+    Node serve para que? E o yarn? 
+    npm install --global yarn (Esse é o comando que o nélio fala que é para ser usado, para instalar o yarn)
+    yarn install (porém eu usei esse para instalar a parada aqui na minha máquina depois que o guh criou o projeto para mim)
+        
+    yarn create react-app frontend --template typescript (ele tacou esse comando dentro da pasta dsmovie)
+    npx create-react-app frontend --template typescript (esse é o segundo comando caso o primeiro dê erro)
+        esse comando cria o projeto react. Usando o aplicativo create react-app que é um aplicativo que ajuda a criar o projeto pra gente. 
+         o nome do projeto é frontend e tem o template de typescript que é um javascript com alguns recursos a mais inclusive a tipagem 
+         de dados com o apoio do compilador. 
+
+    yarn start -- para executar o projeto
+
+    Detalhes backend 
+        Web 
+        JPA 
+        H2 
+        Postgrees 
+        Security 
+    
+    Ele fez um ajuste no arquivo pom.xml 
+    dir lista os diretórios da pasta atual. 
+
+    Comandos Git
+        git init
+
+        git add .
+
+        git commit -m "Projeto criado"
+
+        git branch -M main -- Garante que todo mundo fica com a branch chamada main 
+
+        git remote add origin git@github.com:seuusuario/seurepositorio.git -- Antes de usar esse comando ele criou o projeto no
+         github para associar com o repositório local. 
+
+        git push -u origin main
+
+
+Quarta-Feira
+busca paginada o que seria? Perfis de teste com banco h2. 
