@@ -2,4 +2,8 @@ Pendências
     Trabalhar com Docker depois. 
     Colocar essa pasta no git ignore
     Qual a diferença de SSH para HTTPS no Github
+
+    Pendências backend 
+        * implementar cors. Criando uma classe chamada SecurityConfig
+        * descobrir um banco de dados de teste em memória para o C#
     

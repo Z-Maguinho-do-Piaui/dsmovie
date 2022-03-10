@@ -108,4 +108,20 @@ Segunda-Feira
     
 Quarta-Feira
     Busca paginada o que seria? Perfis de teste com banco h2. 
-    
+
+    Ele criou uma classe de configuração para o CORS 
+    Quando duas aplicações estão hospedadas em hosts diferentes. Por padrão um sistema que tá em um lugar não pode acessar 
+     uma api que está em outro lugar. Então temos que liberar isso com a configuração do cors. 
+
+     O desenho com uma linha e uma classe pendurada no meio através de linhas traçantes se chama classe de associação. 
+      Isso ocorre quando temos um relacionamento muito para muitos. Quando temos relacionamentos muito para muitos temos uma 
+      tabela ali no meio para fazer o intermediário em um banco de dados relacional. E quando temos um campo extra na tabela 
+      intermediária temos que fazer uma classe de associação no meio. 
+
+    No Java quando usamos JPA o identificador de cada chave tem que ser somente um atributo. No banco de 
+     dados relacional aprendemos que na tabela de associação temos duas chaves primárias que formam a chave 
+     composta. Porém na aplicação temos criar uma classe auxiliar para termos as duas referências das classes 
+     que terão o id na tabela de associação. 
+
+    Quando se cria uma chave composta em Java é necessário dar um new para se certificar que o objeto está 
+     instanciado.
