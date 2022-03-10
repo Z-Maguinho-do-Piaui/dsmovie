@@ -2,9 +2,13 @@
 
 namespace backend.EmJava
 {
+    //@Entity
+    //@Table(name = "tb_score")
     public class Score
     {
         // é necessário em java dar um new aqui para garantir que o objeto sempre estará instanciado
+
+        // @EmbeddedId -- por se tratar de uma chave composta
         public ScorePk Id { get; private set; }
         public double Value { get; private set; }
 
