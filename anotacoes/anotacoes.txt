@@ -75,10 +75,16 @@ Segunda-Feira
     Componente em react é uma função que retorna um código jsx através da exportação com o mesmo 
      nome do método. 
 
+    
     "container" nesse projeto é uma classe do bootstrap que determina todo o elemento que contém 
      ele em uma determinada largura.
 
     Os estilos da aplicação começam com o nome dsmovie   
 
+    ============================================================================================
+    Para trabalhar com rotas no projeto é instalado React Router Dom, pode se importar mais de um 
+     componete colocando chaves. 
+
+    
 Quarta-Feira
 busca paginada o que seria? Perfis de teste com banco h2. 
