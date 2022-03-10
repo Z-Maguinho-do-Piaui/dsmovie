@@ -5,5 +5,9 @@ Pendências
 
     Pendências backend 
         * implementar cors. Criando uma classe chamada SecurityConfig
-        * descobrir um banco de dados de teste em memória para o C#
-    
+        * descobrir um banco de dados de teste em memória para o C# (No Java foi o h2)
+        * fazer o mapeamento com entity framework 
+        * implementar swagger 
+        * implementar paginação no c# 
+        * configurar perfis de projeto - para testar no banco. 
+        * 

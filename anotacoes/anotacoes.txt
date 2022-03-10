@@ -125,3 +125,58 @@ Quarta-Feira
 
     Quando se cria uma chave composta em Java é necessário dar um new para se certificar que o objeto está 
      instanciado.
+
+    Dê preferência a especificação e não a implementação, porque se troca a implementação a especificação continua a mesma.
+
+    Camada de acesso a dados é responsável por realizar operações únicas com o banco de dados. 
+
+    Camada de negócio é responsável por realizar várias operações no banco de dados. (essa camada orquestra várias operações de acesso a dados)
+
+    @Autowired - O framework do Java já possui um recurso para fazer o gerenciamento de injeção de dependência automático. 
+
+    Função de alta ordem aplica uma função a cada elemento da lista (expressão lambda)
+
+    Ele criou uma nova collection no postman, e foi criando requisições lá dentro. 
+
+    Salvar avaliação 
+        Lógica:
+            Informar email, id do filme e valor da avaliação (1 a 5).
+
+            Recuperar usuário do banco de dados pelo email. Se o usuário não existir, insira no banco.
+
+            Salvar a avaliação do usuário para o dado filme.
+
+            Recalcular a avaliação média do filme e salvar no banco de dados.
+
+    Existe um conceito chamado de salvar de forma indempotente, que basicamente é. Depois que você salvar uma vez, se tentar de novo 
+     salvar os mesmos dados não irá mudar mais nada. Para isso usamos o verbo put.
+        Salvar os mesmo dados mais de uma vez é como salvar de uma vez só. 
+
+    O h2 roda na web e isso é muito bom.
+    
+
+    Estrutura da url do banco de dados do banco do heroku 
+        Depois das duas barras - Nome do usuário 
+        Depois dos dois pontos - Senha do usuário 
+        Depois do @ - vem o host (onde está hospedado o banco de dados)
+        Depois dos 2 pontos - vem a porta 
+        E depois da barra - vem o nome da base de dados 
+
+
+    Incluir a base de dados também na área advanced em Db restriction. Se não colocar isso aparece um monte de base de dados 
+     sendo impossível encontrar a sua. 
+
+    é preciso ter o hekoku cli instalado na máquina para implantar o projeto no heroku. 
+
+    heroku -v (para ver a versão)
+    heroku login 
+    heroku git:remote -a <nome-do-app> (para associar o repositório local com o heroku, o nome da aplicação é o nome do aplicativo no heroku)
+    git remote -v (para conferir se realmente foi associado o repositório com o heroku)
+    git subtree push --prefix backend heroku main (para enviar só que quando se tratar de um projeto monorreco (ter tanto o front e o back nas mesmas pastas é preciso 
+        colocar o comando --prefix definindo a pasta que deverá ser subida))
+    
+    usou o netlify para hospedar o front end. 
+    uma vez dado push na master do repositório github o netlify já faz um novo deploy.
+
+    
+Sexta-feira 

@@ -13,3 +13,10 @@ namespace backend.EmJava
         public User User { get; set; }
     }
 }
+
+
+// Criação do repositório em Java com JPA
+//public interface MovieRepository implements JpaRepository <object, typeId> {
+
+//}
+
