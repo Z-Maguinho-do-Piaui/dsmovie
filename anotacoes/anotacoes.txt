@@ -89,7 +89,19 @@ Segunda-Feira
 
     Em arquivos jsx, quando vai se colocar uma expressão react é colocado o código dentro de src={}
 
-    
+    Lembre-se uma função só pode exportar um componente. Geralmente usa-se div para colcoar mais de  
+     um componente. Porém o nélio usou o fragment (<> </> - pois colocando um div aparecia um div a 
+      mais no html)
 
+    O MovieCard pegou o css do formulário porque o css dele é global. 
+
+    className="row" em Listing é uma classe do bootstrap, ela organiza os elementos. 
+
+    bootstrap tem breakpoint (só digitar bootstrap breakpoint no google e entrar)
+
+    outra coisa a se entender é o bootstrap grid system. Por padrão o bootstrap separa 
+     sua largura da tela em 12 partes, porém isso pode ser configurado.  
+
+    
 Quarta-Feira
 busca paginada o que seria? Perfis de teste com banco h2. 
