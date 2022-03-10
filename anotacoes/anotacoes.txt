@@ -48,6 +48,37 @@ Segunda-Feira
     Boostrap é um framework de css que traz muita coisa pronta para o layout ser montado de 
      uma maneira mais fácil mais produtiva. (bootstrap css - para mais informações)
 
+    assets -- recursos, uma pasta onde guarda imagens algum outro arquivo usado. 
+    imagens em svg podem ser ampliadas sem mudar a renderização da imagem. 
+
+    Componente React é uma função do JavaScript 
+    export -- significa que a função pode ser usada em outro arquivo. 
+
+    ReactDOM.render 
+    React.StrictMode - deixa o projeto mais protegido mais controlado. 
+    App.tsx é chamado pelo index.css e este é chamado via getElementById pelo index.tsx
     
+    App.tsx não retorna html e sim jsx pois dentro dele podemos colocar códigos do react para 
+     ele rodar. 
+
+    O react trabalha com components e vai chamando um a um. 
+    
+    Um projeto react sem typescript tem a extensão jsx já com o typescript tem a extensão 
+     tsx (extensão do arquivo react com typescript)
+
+    '../../assets/img/github.svg';
+        é necessário ir colocando ../ para ir voltando de diretório em diretório 
+
+    A não ser que se use isso no tsconfig.json para ficar fazendo isso 
+        "baseUrl": "./src" e passa a ficar assim 'assets/img/github.svg'
+
+    Componente em react é uma função que retorna um código jsx através da exportação com o mesmo 
+     nome do método. 
+
+    "container" nesse projeto é uma classe do bootstrap que determina todo o elemento que contém 
+     ele em uma determinada largura.
+
+    Os estilos da aplicação começam com o nome dsmovie   
+
 Quarta-Feira
 busca paginada o que seria? Perfis de teste com banco h2. 
