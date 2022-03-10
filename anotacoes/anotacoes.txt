@@ -102,6 +102,10 @@ Segunda-Feira
     outra coisa a se entender é o bootstrap grid system. Por padrão o bootstrap separa 
      sua largura da tela em 12 partes, porém isso pode ser configurado.  
 
+    monerreco -- aplicação estruturada. Com backend e frontend. E no front fizemos o layout estático 
+     estruturado em componentes React! 
+
     
 Quarta-Feira
-busca paginada o que seria? Perfis de teste com banco h2. 
+    Busca paginada o que seria? Perfis de teste com banco h2. 
+    
