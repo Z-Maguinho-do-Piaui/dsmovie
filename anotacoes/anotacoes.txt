@@ -85,6 +85,11 @@ Segunda-Feira
     Para trabalhar com rotas no projeto é instalado React Router Dom, pode se importar mais de um 
      componete colocando chaves. 
 
+    shift + alt + f -- identa o código.
+
+    Em arquivos jsx, quando vai se colocar uma expressão react é colocado o código dentro de src={}
+
     
+
 Quarta-Feira
 busca paginada o que seria? Perfis de teste com banco h2. 
