@@ -179,4 +179,52 @@ Quarta-Feira
     uma vez dado push na master do repositório github o netlify já faz um novo deploy.
 
     
-Sexta-feira 
+Sexta-feira Integração front end e back end 
+    Três pilares do react 
+        Componentes 
+        Props 
+        Estado 
+
+    React Hooks 
+        useState 
+        useEffect 
+        useParams 
+        useNavigate 
+
+
+    É possível fazer requisições com a fetch api do javascript porém o axios deixa as coisas 
+     mais fáceis. 
+    
+    ?? -- operador de coalecênsia nula igual o operador ternário. 
+
+    lembre-se que um componente react é uma função JavaScript 
+
+    O resultado da request é uma promise um objeto que encapsula a ação que pode acontecer depois 
+     para executar algo depois que chegar a resposta da requisição é necessário colocar na frente da chamada 
+     o .then() e dentro dele colocamos o que queremos que seja executado, e isso só será executado depois que a 
+     requisição voltar. 
+
+    Hooks é a tradução de gancho.
+    Hooks são funções cujo comportamento está vinculado ao estado e ao ciclo de vida do React a partir de componentes funcionais.
+    https://pt-br.reactjs.org/docs/hooks-overview.html
+
+    o componente react tem um ciclo de vida, por isso as vezes ele chama o backend mais de uma vez, ele é um componente visual, ele tem 
+     que atualizar as coias indepentendemente dos dados, então ele passa mais de uma vez pelo back end ao longo do ciclo de vida dele. 
+
+    tem que se colocar uma lógica ligada ao ciclo de vida do componente para que isso não aconteça. E isso se dá aos hooks 
+
+    useState - serve para manter / armazenar os dados / estados dentro do componente. 
+        é uma boa prática iniciar o useState com um valor. 
+
+    ele colocou chaves no import do MoviePage porque ele pega mais de uma coisa que tá lá. Então para pegar 
+     especificamente o movie page que tá lá é posto a chave. 
+
+    Hook: useEffect
+    Executar algo na instanciação ou destruição do componente, observar estado
+    basicamente quando alguma coisa mudar ele executa algo. Ele recebe dois argumentos, uma função para ser executada e o segundo é uma lista de 
+     objetos que ele irá observar. Ou seja sempre que alterar alguma coisa nesse objeto que ele está observando ele executa a função de novo. 
+     se a lista de objetos for vazia ele só executa o método quando o componente for carregado. 
+
+    
+
+    
