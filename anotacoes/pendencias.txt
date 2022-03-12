@@ -11,3 +11,6 @@ Pendências
         * implementar paginação no c# 
         * configurar perfis de projeto - para testar no banco. 
         * 
+Dúvidas Front end 
+    *Por que ele não colocou o objeto inteiro MoviePage e setou como nulo na function Listing? 
+    

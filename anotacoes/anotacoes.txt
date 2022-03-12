@@ -225,6 +225,23 @@ Sexta-feira Integração front end e back end
      objetos que ele irá observar. Ou seja sempre que alterar alguma coisa nesse objeto que ele está observando ele executa a função de novo. 
      se a lista de objetos for vazia ele só executa o método quando o componente for carregado. 
 
-    
+    Props podem ser entendidas como argumentos do componente react. Elas são muito simples. 
+    https://pt-br.reactjs.org/docs/components-and-props.html
+    em uma renderização dinâmica de coleção, cada elemento renderizado DEVE possuir um atributo key.
+        esse key é um valor único para cada registro. 
 
-    
+    ? no parâmetro significa que se existir ele pega uma valor se não ele vai nulo. 
+
+    Entre o Pagination e o Listing existe observer (um componente que emite evento para outro componente)
+
+    Como se trata de envio de formulário a primeira coisa que deve ser feita (e isso é feito bastante em front end)
+     é evitar o envio da tela sem o carregamento da pagina e para parar isso usa-se event.preventDefault() 
+
+     event.target é uma referência para o formulário e no formulário chama-se o propriedade definida através do id e pega-se 
+      o seu valor. 
+
+    useNavigate() -- serve para dar um comando de redirecionamento de rota. 
+
+    1:33:50 / 2:00:25
+
+     
