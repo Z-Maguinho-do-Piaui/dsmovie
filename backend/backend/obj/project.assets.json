@@ -200,9 +200,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\dsmovie\\backend\\backend\\backend.csproj",
-      "projectName": "backend",
-      "projectPath": "C:\\Projetos\\dsmovie\\backend\\backend\\backend.csproj",
+      "projectUniqueName": "C:\\Projetos\\dsmovie\\backend\\backend\\Backend.csproj",
+      "projectName": "Backend",
+      "projectPath": "C:\\Projetos\\dsmovie\\backend\\backend\\Backend.csproj",
       "packagesPath": "C:\\Users\\klebe\\.nuget\\packages\\",
       "outputPath": "C:\\Projetos\\dsmovie\\backend\\backend\\obj\\",
       "projectStyle": "PackageReference",

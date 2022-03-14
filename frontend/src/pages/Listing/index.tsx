@@ -9,7 +9,7 @@ import { MoviePage } from "types/movie";
 function Listing() {
 
     //Estados 
-    const [pageNumber, setPageNumber] = useState(0);
+    const [pageNumber, setPageNumber] = useState(1);
     const [page, setPage] = useState<MoviePage>({
         content: [],  
         last: true,
@@ -31,8 +31,17 @@ function Listing() {
     //         });
     // }, []);
     
+    // useEffect(() => {
+    //     axios.get(`${BASE_URL}/WeatherForecast`)
+    //         .then(response => {
+    //             const data = response.data as MoviePage
+    //             console.log(data);
+    //             setPage(data);
+    //         });
+    // }, [pageNumber]);
+
     useEffect(() => {
-        axios.get(`${BASE_URL}/WeatherForecast&sort=id`)
+        axios.get(`${BASE_URL}/Movie/find-all?size=12&actualPage=${pageNumber}`)
             .then(response => {
                 const data = response.data as MoviePage
                 setPage(data);
@@ -50,6 +59,8 @@ function Listing() {
     }
 
     return (
+
+        // <p>Deu certo!</p>
         <>
             <Pagination page={page} onChange={handlePageChange} />
             <div className="container">

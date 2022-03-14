@@ -18,7 +18,7 @@ function FormCard({ movieId }: Props) {
     const [movie, setMovie] = useState<Movie>();
 
     useEffect(() => {
-        axios.get(`${BASE_URL}/movies/${movieId}`) 
+        axios.get(`${BASE_URL}/Movie/find-by-id?id=${movieId}`) 
             .then(response => {
                 setMovie(response.data);
             });
@@ -32,12 +32,12 @@ function FormCard({ movieId }: Props) {
         if(!validateEmail(email)){
             return;
         }
-        // console.log(email, score);
+        console.log(email, score);
 
         const config: AxiosRequestConfig = {
             baseURL: BASE_URL,
             method: 'PUT',
-            url: '/scores',
+            url: '/Score/save-score'    ,
             data: {
                 email: email,
                 movieId: movieId,
@@ -46,7 +46,7 @@ function FormCard({ movieId }: Props) {
         }
 
         axios(config).then(response => {
-            console.log(response.data);
+            // console.log(response.data);
             navigate("/");
         });
         

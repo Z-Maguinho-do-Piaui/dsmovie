@@ -1,4 +1,4 @@
-﻿namespace backend.Cors
+﻿namespace Backend.Cors
 {
     public class SecurityConfig
     {

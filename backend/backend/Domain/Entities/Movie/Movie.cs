@@ -1,8 +1,8 @@
-﻿namespace backend.Entities
+﻿namespace Backend.Domain.Entities.Movie
 {
     public class Movie
     {
-        public Movie(long id, string title, double score, int count, string image)
+        public Movie(long id, double score, int count, string title, string image)
         {
             Id = id;
             Title = title;
