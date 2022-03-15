@@ -1,4 +1,5 @@
-﻿using Backend.Domain.Entities.Movie;
+﻿using Backend.Data;
+using Backend.Domain.Entities.Movie;
 using Backend.Dto;
 using Backend.Services;
 using Microsoft.AspNetCore.Cors;
@@ -15,10 +16,11 @@ namespace Backend.Controllers
 
         private readonly ILogger<MovieController> _logger;
         private IMovieService _service;
-        public MovieController(ILogger<MovieController> logger)
+        BackendContext _context;
+        public MovieController(ILogger<MovieController> logger, IMovieService movieService)
         {
             _logger = logger;
-            _service = new MovieServices();
+            _service = movieService;
         }
 
         [EnableCors("MyPolicy")]
@@ -26,6 +28,7 @@ namespace Backend.Controllers
         public MoviePage FindAll(int size, int actualPage)
         {
             return _service.GetInformationPage(size, actualPage);
+            //return _contenxt.DbMovies.Skip((actualPage - 1) * size).Take(size).ToList();
         }
 
         [EnableCors("MyPolicy")]

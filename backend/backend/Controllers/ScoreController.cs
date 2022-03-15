@@ -1,6 +1,5 @@
 ﻿using Backend.Domain.Entities.Score;
 using Backend.Dto;
-using Backend.Services;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -15,10 +14,10 @@ namespace Backend.Controllers
     {
         private readonly ILogger<ScoreController> _logger;
         private IScoreService _service;
-        public ScoreController(ILogger<ScoreController> logger)
+        public ScoreController(ILogger<ScoreController> logger, IScoreService score)
         {
             _logger = logger;
-            _service = new ScoreService();
+            _service = score;
         }
 
         [EnableCors("MyPolicy")]

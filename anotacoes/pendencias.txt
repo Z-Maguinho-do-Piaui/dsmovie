@@ -3,15 +3,32 @@ Pendências
     Colocar essa pasta no git ignore
     Qual a diferença de SSH para HTTPS no Github
 
-    Pendências backend 
-        * implementar cors. Criando uma classe chamada SecurityConfig
+    Pendências primárias (cruciais)
+        frontend
+        backend 
+            * ler e salvar artigo sobre CORS 
+            * estudar sobre restfull api 
+            * estuda sobre métodos de retorno dos controllers 
+
         * descobrir um banco de dados de teste em memória para o C# (No Java foi o h2)
         * fazer o mapeamento com entity framework 
         * implementar swagger 
-        * implementar paginação no c# 
+        * implementar paginação no c# (x)
         * configurar perfis de projeto - para testar no banco. 
         * implementar injeção de dependência. 
-        
-Dúvidas Front end 
-    *Por que ele não colocou o objeto inteiro MoviePage e setou como nulo na function Listing? 
+    
+    Pendências secundárias (não tão cruciais)
+        frontend
+
+        backend 
+            * implementar cors. Criando uma classe chamada SecurityConfig 
+             implementei porém ser ser feito desse jeito  permitindo todas as origens 
+    Pendências resolvidas 
+        frontend
+
+        backend 
+
+Dúvidas 
+    frontend 
+        *Por que ele não colocou o objeto inteiro MoviePage e setou como nulo na function Listing? 
     

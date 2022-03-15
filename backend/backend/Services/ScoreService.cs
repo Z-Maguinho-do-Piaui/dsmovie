@@ -2,7 +2,6 @@
 using Backend.Domain.Entities.Score;
 using Backend.Domain.Entities.User;
 using Backend.Dto;
-using Backend.Repository;
 
 namespace Backend.Services
 {
@@ -11,11 +10,11 @@ namespace Backend.Services
         private IScoreRepository _repository;
         private IMovieRepository _movieRepository;
         private IUserRepository _userRepository;
-        public ScoreService()
+        public ScoreService(IScoreRepository repository, IMovieRepository movieRepository, IUserRepository userRepository)
         {
-            _repository = new ScoreRepository();
-            _movieRepository = new MovieRepository();
-            _userRepository = new UserRepository();
+            _repository = repository;
+            _movieRepository = movieRepository;
+            _userRepository = userRepository;
         }
         public ScoreDto FindById(long id)
         {

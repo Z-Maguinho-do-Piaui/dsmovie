@@ -1,5 +1,8 @@
+using Backend.Data;
+using Backend.Ioc;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -35,6 +38,18 @@ namespace Backend
                 .AllowAnyMethod()
                 .AllowAnyHeader();
             }));
+
+            services.AddDbContext<BackendContext>(db =>
+            {
+                db.UseNpgsql(Configuration.GetConnectionString("BackendContext"));
+            });
+
+            RegisterServices(services);
+        }
+
+        private static void RegisterServices(IServiceCollection services)
+        {
+            services.RegisterServices();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -1,14 +1,13 @@
 ﻿using Backend.Domain.Entities.Movie;
 using Backend.Dto;
-using Backend.Repository;
 
 namespace Backend.Services
 {
     public class MovieServices : IMovieService
     {
-        public MovieServices()
+        public MovieServices(IMovieRepository repository)
         {
-            _repository = new MovieRepository();
+            _repository = repository;
         }
 
         private IMovieRepository _repository;

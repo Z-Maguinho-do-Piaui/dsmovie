@@ -7,10 +7,20 @@ C:\Projetos\dsmovie\backend\backend\bin\Debug\net5.0\Backend.runtimeconfig.dev.j
 C:\Projetos\dsmovie\backend\backend\bin\Debug\net5.0\Backend.dll
 C:\Projetos\dsmovie\backend\backend\bin\Debug\net5.0\ref\Backend.dll
 C:\Projetos\dsmovie\backend\backend\bin\Debug\net5.0\Backend.pdb
+C:\Projetos\dsmovie\backend\backend\bin\Debug\net5.0\Humanizer.dll
+C:\Projetos\dsmovie\backend\backend\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Projetos\dsmovie\backend\backend\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Projetos\dsmovie\backend\backend\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Projetos\dsmovie\backend\backend\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Projetos\dsmovie\backend\backend\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Projetos\dsmovie\backend\backend\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Projetos\dsmovie\backend\backend\bin\Debug\net5.0\Npgsql.dll
+C:\Projetos\dsmovie\backend\backend\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Projetos\dsmovie\backend\backend\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Projetos\dsmovie\backend\backend\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Projetos\dsmovie\backend\backend\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Projetos\dsmovie\backend\backend\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Projetos\dsmovie\backend\backend\obj\Debug\net5.0\Backend.csproj.AssemblyReference.cache
 C:\Projetos\dsmovie\backend\backend\obj\Debug\net5.0\Backend.GeneratedMSBuildEditorConfig.editorconfig
 C:\Projetos\dsmovie\backend\backend\obj\Debug\net5.0\Backend.AssemblyInfoInputs.cache
 C:\Projetos\dsmovie\backend\backend\obj\Debug\net5.0\Backend.AssemblyInfo.cs
@@ -26,4 +36,3 @@ C:\Projetos\dsmovie\backend\backend\obj\Debug\net5.0\Backend.dll
 C:\Projetos\dsmovie\backend\backend\obj\Debug\net5.0\ref\Backend.dll
 C:\Projetos\dsmovie\backend\backend\obj\Debug\net5.0\Backend.pdb
 C:\Projetos\dsmovie\backend\backend\obj\Debug\net5.0\Backend.genruntimeconfig.cache
-C:\Projetos\dsmovie\backend\backend\obj\Debug\net5.0\Backend.csproj.AssemblyReference.cache
